@@ -11,5 +11,8 @@
     "url": "origin:nextmoose/ghastlywrench-server.git"
   },
   "author": "Emory Merryman",
-  "license": "GPL-3.0"
+  "license": "GPL-3.0",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }

@@ -1,0 +1,15 @@
+{
+  "name": "ghastlywrench-server",
+  "version": "0.0.0",
+  "description": "Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "origin:nextmoose/ghastlywrench-server.git"
+  },
+  "author": "Emory Merryman",
+  "license": "GPL-3.0"
+}

@@ -2,5 +2,13 @@
   <H1>Hello</H1>
   <SCRIPT>
     alert("HELLO");
+    const socket = new WebSocket("ws://127.0.0.1:32777/socket/echo");
+    socket.onopen = function(event) {
+    socket.send("Here is some data");
+    };
+    socket.onmessage = function (event) {
+      console.log(event.data);
+    };
+    console.log(socket);
   </SCRIPT>
 </HTML>

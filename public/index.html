@@ -4,7 +4,7 @@
     alert("HELLO");
     const socket = new WebSocket("ws://127.0.0.1:32777/socket/echo");
     socket.onopen = function(event) {
-    socket.send("Here is some data");
+    socket.send(JSON.stringify({state: "New Jersy", capital: "Trenton"}));
     };
     socket.onmessage = function (event) {
       console.log(event.data);
